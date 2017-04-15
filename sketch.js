@@ -10,6 +10,7 @@ function setup() {
 }
 
 function gotData(giphy) {
-     createImg(giphy.data[0].images.original.url);
+    theGif.createImg(giphy.data[0].images.original.url);
+    theGif.position(10, 10);
   
 }
